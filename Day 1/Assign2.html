@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <h2>Difference between var, let, const</h2>
+        <title>VarLetConst</title>
+
+    </head>
+    <ul>
+        <li>var : var variable declared globally</li>
+        <li>Let : Let variable which is defined for a block</li>
+        <li>const : const variable cannot changed </li>
+    </ul>
+    <body>
+        <script>
+            var a,b,c;      // var variable declared globally
+            a=10;
+            b=20;
+            c=30;
+            console.log(a)
+            {
+                let a;      // Let variable which is defined for a block
+                a=50;
+                console.log(a)
+            }
+
+            const d = ["monitor","mouse","keyboard","speaker"];         //const variable cannot changed 
+            d.push("CPU");
+            console.log(d)
+        </script>
+    </body>
+</html>
